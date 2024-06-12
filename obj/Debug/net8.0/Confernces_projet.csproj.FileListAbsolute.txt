@@ -1,0 +1,7 @@
+C:\Users\hp\source\repos\Confernces_projet\obj\Debug\net8.0\Confernces_projet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\source\repos\Confernces_projet\obj\Debug\net8.0\Confernces_projet.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\Confernces_projet\obj\Debug\net8.0\Confernces_projet.AssemblyInfo.cs
+C:\Users\hp\source\repos\Confernces_projet\obj\Debug\net8.0\Confernces_projet.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\Confernces_projet\obj\Debug\net8.0\Confernces_projet.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\hp\source\repos\Confernces_projet\obj\Debug\net8.0\Confernces_projet.RazorAssemblyInfo.cache
+C:\Users\hp\source\repos\Confernces_projet\obj\Debug\net8.0\Confernces_projet.RazorAssemblyInfo.cs

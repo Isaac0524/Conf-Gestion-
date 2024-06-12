@@ -1,0 +1,95 @@
+﻿
+@page "/ShowConference"
+@using Conferences_projet.Models
+@using Conferences_projet.service
+
+@inject ConferenceService ConferenceShow
+@inject NavigationManager Navigation
+
+<h3>ShowConference</h3>
+
+@if (Conferences == null || !Conferences.Any())
+{
+    <h1>Il n'y a pas de conférences disponibles.</h1>
+}
+else
+{
+    <table>
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Sigle</th>
+                <th>Thème</th>
+                <th>Date de Soumission</th>
+                <th>Date Limite des Résultats</th>
+                <th>Date Limite d'Inscription</th>
+                <th>Date de Début</th>
+                <th>Date de Fin</th>
+                <th>Articles</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var conference in Conferences)
+            {
+                <tr>
+                    <td>@conference.Nom</td>
+                    <td>@conference.Sigle</td>
+                    <td>@conference.Theme</td>
+                    <td>@conference.DateSoumission.ToShortDateString()</td>
+                    <td>@conference.DateLimiteResultats.ToShortDateString()</td>
+                    <td>@conference.DateLimiteInscription.ToShortDateString()</td>
+                    <td>@conference.DateDebut.ToShortDateString()</td>
+                    <td>@conference.DateFin.ToShortDateString()</td>
+                    <td>
+                        <ul>
+                            @foreach (var article in conference.Articles)
+                            {
+                                <li>@article.Titre</li>
+                            }
+                        </ul>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+@code {
+    private List<Conference> Conferences;
+    private string searchTerm;
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            Conferences = await ConferenceShow.GetAllConferencesAsync();
+        }
+        catch (Exception ex)
+        {
+            // Handle the error, e.g., log it or show a message
+            Console.Error.WriteLine($"An error occurred: {ex.Message}");
+            Conferences = new List<Conference>(); // Ensure Conferences is not null
+        }
+    }
+    private async Task Search()
+    {
+        Conferences = await ConferenceShow.SearchConferencesAsync(searchTerm);
+    }
+
+    private void EditConference(int conferenceId)
+    {
+        Navigation.NavigateTo($"/edit-conference/{conferenceId}");
+    }
+
+    private async Task DeleteConference(int conferenceId)
+    {
+        await ConferenceShow.DeleteConferenceAsync(conferenceId);
+        Conferences = await ConferenceShow.GetAllConferencesAsync();
+    }
+
+}
+
+
+
+
+

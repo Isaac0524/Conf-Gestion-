@@ -1,0 +1,70 @@
+﻿@page "/create-conference"
+@using Conferences_projet.Models
+@using Conferences_projet.service
+
+@inject IConferenceService ConferenceService
+@inject NavigationManager Navigation
+
+<h3>Create Conference</h3>
+
+<EditForm Model="conference" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div>
+        <label>Nom:</label>
+        <InputText @bind-Value="conference.Nom" />
+    </div>
+    <div>
+        <label>Sigle:</label>
+        <InputText @bind-Value="conference.Sigle" />
+    </div>
+    <div>
+        <label>Theme:</label>
+        <InputText @bind-Value="conference.Theme" />
+    </div>
+    <div>
+        <label>Date de Soumission:</label>
+        <InputDate @bind-Value="conference.DateSoumission" />
+    </div>
+    <div>
+        <label>Date Limite des Résultats:</label>
+        <InputDate @bind-Value="conference.DateLimiteResultats" />
+    </div>
+    <div>
+        <label>Date Limite d'Inscription:</label>
+        <InputDate @bind-Value="conference.DateLimiteInscription" />
+    </div>
+    <div>
+        <label>Date de Début:</label>
+        <InputDate @bind-Value="conference.DateDebut" />
+    </div>
+    <div>
+        <label>Date de Fin:</label>
+        <InputDate @bind-Value="conference.DateFin" />
+    </div>
+    <button type="submit">Save</button>
+</EditForm>
+
+
+@code {
+    private Conference conference = new Conference();
+
+    private async Task HandleValidSubmit()
+    {
+        try
+        {
+            await ConferenceService.CreateConferenceAsync(conference);
+            conference = new Conference();
+            Navigation.NavigateTo("/show-conference");
+        }
+
+        catch (Exception ex)
+        {
+            // Gérer les erreurs ici
+            Console.WriteLine($"Erreur lors de la création de la conférence : {ex.Message}");
+        }
+    }
+}
+
+

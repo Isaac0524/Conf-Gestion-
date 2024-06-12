@@ -1,0 +1,51 @@
+﻿@page "/insert-article"
+@using Conferences_projet.Models
+@using Conferences_projet.service
+
+@inject IArticleService ArticleService
+
+<h3>Insert Article</h3>
+
+<EditForm Model="article" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div>
+        <label>Titre:</label>
+        <InputText @bind-Value="article.Titre" />
+    </div>
+    <div>
+        <label>Résumé:</label>
+        <InputText @bind-Value="article.Resume" />
+    </div>
+    <div>
+        <label>Fichier PDF:</label>
+        <InputText @bind-Value="article.FichierPdf" />
+    </div>
+    <div>
+        <label>Nombre de Relecteurs:</label>
+        <InputNumber @bind-Value="article.NombreRelecteurs" />
+    </div>
+    <div>
+        <label>Statut:</label>
+        <InputText @bind-Value="article.Statut" />
+    </div>
+    <div>
+        <label>Auteur ID:</label>
+        <InputNumber @bind-Value="article.AuteurId" />
+    </div>
+    <div>
+        <label>Conference ID:</label>
+        <InputNumber @bind-Value="article.ConferenceId" />
+    </div>
+    <button type="submit">Submit</button>
+</EditForm>
+
+@code {
+    private Article article = new Article();
+
+    private async Task HandleValidSubmit()
+    {
+        await ArticleService.CreateArticleAsync(article);
+    }
+}

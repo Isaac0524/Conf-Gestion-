@@ -1,0 +1,65 @@
+﻿<!-- ShowEntreprises.razor -->
+@page "/show-entreprises"
+@using Conferences_projet.Models
+@using Conferences_projet.service
+@inject NavigationManager Navigation
+@inject IEntrepriseService EntrepriseService
+
+<h3>List of Entreprises</h3>
+
+@if (entreprises != null && entreprises.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var entreprise in entreprises)
+            {
+                <tr>
+                    <td>@entreprise.Nom</td>
+                    <td>@entreprise.Adresse</td>
+                    <td>
+                        <button @onclick="() => EditEntreprise(entreprise.Id)" class="btn btn-primary">Edit</button>
+                        <button @onclick="() => DeleteEntreprise(entreprise.Id)" class="btn btn-danger">Delete</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No entreprises found.</p>
+}
+
+<button @onclick="CreateEntreprise" class="btn btn-success">Create New Entreprise</button>
+
+@code {
+    private List<Entreprise> entreprises;
+
+    protected override async Task OnInitializedAsync()
+    {
+        entreprises = await EntrepriseService.GetAllEntreprisesAsync();
+    }
+
+    private void EditEntreprise(int id)
+    {
+        Navigation.NavigateTo($"/edit-entreprise/{id}");
+    }
+
+    private void DeleteEntreprise(int id)
+    {
+        Navigation.NavigateTo($"/delete-entreprise/{id}");
+    }
+
+    private void CreateEntreprise()
+    {
+        Navigation.NavigateTo("/create-entreprise");
+    }
+}
+

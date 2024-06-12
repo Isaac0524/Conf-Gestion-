@@ -1,0 +1,87 @@
+﻿@page "/show-relecteur"
+@using Conferences_projet.Models
+@using Conferences_projet.service
+
+@inject RelecteurService RelecteurService
+@inject NavigationManager Navigation
+
+<h3>Show Relecteur</h3>
+
+<input type="text" @bind="searchTerm" placeholder="Search..." />
+<button @onclick="Search">Search</button>
+
+@if (Relecteurs == null || !Relecteurs.Any())
+{
+    <h1>Il n'y a pas de relecteurs disponibles.</h1>
+}
+else
+{
+    <table>
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>Email</th>
+                <th>Affectations</th>
+                <th>Evaluations</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var relecteur in Relecteurs)
+            {
+                <tr>
+                    <td>@relecteur.Nom</td>
+                    <td>@relecteur.Prenom</td>
+                    <td>@relecteur.Email</td>
+                    <td>
+                        <ul>
+                            @foreach (var affectation in relecteur.Affectations)
+                            {
+                                <li>@affectation.Id</li>
+                            }
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            @foreach (var evaluation in relecteur.Evaluations)
+                            {
+                                <li>@evaluation.EvaluationId</li>
+                            }
+                        </ul>
+                    </td>
+                    <td>
+                        <button @onclick="() => EditRelecteur(relecteur.Id)">Edit</button>
+                        <button @onclick="() => DeleteRelecteur(relecteur.Id)">Delete</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<Relecteur> Relecteurs;
+    private string searchTerm;
+
+    protected override async Task OnInitializedAsync()
+    {
+        Relecteurs = await RelecteurService.GetAllRelecteursAsync();
+    }
+
+    private async Task Search()
+    {
+        Relecteurs = await RelecteurService.SearchRelecteursAsync(searchTerm);
+    }
+
+    private void EditRelecteur(int relecteurId)
+    {
+        Navigation.NavigateTo($"/edit-relecteur/{relecteurId}");
+    }
+
+    private async Task DeleteRelecteur(int relecteurId)
+    {
+        await RelecteurService.DeleteRelecteurAsync(relecteurId);
+        Relecteurs = await RelecteurService.GetAllRelecteursAsync();
+    }
+}

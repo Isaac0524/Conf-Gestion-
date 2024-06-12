@@ -1,0 +1,43 @@
+﻿
+@using Conferences_projet.Data;
+@using Conferences_projet.service;
+@using Conferences_projet.Models;
+
+@page "/deleteentreprise/{Id:int}"
+@inject NavigationManager Navigation
+@inject IEntrepriseService EntrepriseService
+
+<h3>Delete Entreprise</h3>
+
+@if (entreprise != null)
+{
+    <div>
+        <p>Are you sure you want to delete the entreprise "<strong>@entreprise.Nom</strong>"?</p>
+        <button @onclick="Delete" class="btn btn-danger">Delete</button>
+    </div>
+}
+else
+{
+    <p>Entreprise not found!</p>
+}
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    private Entreprise entreprise;
+
+    protected override async Task OnInitializedAsync()
+    {
+        entreprise = await EntrepriseService.GetEntrepriseByIdAsync(Id);
+    }
+
+    private async Task Delete()
+    {
+        if (entreprise != null)
+        {
+            await EntrepriseService.DeleteEntrepriseAsync(entreprise.Id);
+            Navigation.NavigateTo("/show-entreprises");
+        }
+    }
+}

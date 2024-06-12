@@ -1,0 +1,45 @@
+﻿<!-- ShowUniversites.razor -->
+@page "/show-universites"
+@using Conferences_projet.Models
+@using Conferences_projet.service
+@inject IUniversiteService UniversiteService
+
+<h3>Show Universites</h3>
+
+@if (universites == null || !universites.Any())
+{
+    <p>No universites available.</p>
+}
+else
+{
+    <table>
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var universite in universites)
+            {
+                <tr>
+                    <td>@universite.Nom</td>
+                    <td>
+                        <a href="/edit-universite/@universite.Id">Edit</a>
+                        <a href="/delete-universite/@universite.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<Universite> universites;
+
+    protected override async Task OnInitializedAsync()
+    {
+        universites = await UniversiteService.GetAllUniversitesAsync();
+    }
+}
+

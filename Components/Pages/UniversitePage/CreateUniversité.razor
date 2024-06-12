@@ -1,0 +1,33 @@
+﻿<!-- CreateUniversite.razor -->
+@page "/create-universite"
+@using Conferences_projet.Data;
+@using Conferences_projet.Models;
+@using Conferences_projet.service;
+@inject IUniversiteService UniversiteService
+@inject NavigationManager Navigation
+
+<h3>Create Universite</h3>
+
+<EditForm Model="universite" OnValidSubmit="CreateUniversite">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div>
+        <label>Nom:</label>
+        <InputText @bind-Value="universite.Nom" class="form-control" />
+        <ValidationMessage For="() => universite.Nom" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Create</button>
+</EditForm>
+
+@code {
+    private Universite universite = new Universite();
+
+    private async Task CreateUniversite()
+    {
+        await UniversiteService.CreateUniversiteAsync(universite);
+        Navigation.NavigateTo("/show-universites");
+    }
+}
+

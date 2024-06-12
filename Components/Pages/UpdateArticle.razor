@@ -1,0 +1,70 @@
+﻿@page "/update-article"
+@using Conferences_projet.Models
+@using Conferences_projet.service
+
+@inject IArticleService ArticleService
+@code {
+    private Article article;
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Initialisation de l'article
+        article = await ArticleService.GetArticleByIdAsync(1); // Supposons que l'ID de l'article à modifier soit 1
+    }
+
+    private async Task HandleUpdateArticle()
+    {
+        await ArticleService.UpdateArticleAsync(article);
+    }
+}
+
+<h3>Update Article</h3>
+
+@if (article != null)
+{
+    <EditForm Model="@article" OnValidSubmit="@HandleUpdateArticle">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="form-group">
+            <label for="Titre">Title</label>
+            <InputText id="Titre" class="form-control" @bind-Value="article.Titre" />
+        </div>
+
+        <div class="form-group">
+            <label for="Resume">Summary</label>
+            <InputText id="Resume" class="form-control" @bind-Value="article.Resume" />
+        </div>
+
+        <div class="form-group">
+            <label for="FichierPdf">PDF File</label>
+            <InputText id="FichierPdf" class="form-control" @bind-Value="article.FichierPdf" />
+        </div>
+
+        <div class="form-group">
+            <label for="NombreRelecteurs">Number of Reviewers</label>
+            <InputNumber id="NombreRelecteurs" class="form-control" @bind-Value="article.NombreRelecteurs" />
+        </div>
+
+        <div class="form-group">
+            <label for="Statut">Status</label>
+            <InputText id="Statut" class="form-control" @bind-Value="article.Statut" />
+        </div>
+
+        <div class="form-group">
+            <label for="AuteurId">Author ID</label>
+            <InputNumber id="AuteurId" class="form-control" @bind-Value="article.AuteurId" />
+        </div>
+
+        <div class="form-group">
+            <label for="ConferenceId">Conference ID</label>
+            <InputNumber id="ConferenceId" class="form-control" @bind-Value="article.ConferenceId" />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Update</button>
+    </EditForm>
+}
+else
+{
+    <p>Loading...</p>
+}

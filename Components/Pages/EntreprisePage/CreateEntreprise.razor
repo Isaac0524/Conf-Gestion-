@@ -1,0 +1,42 @@
+﻿<!-- CreateEntreprise.razor -->
+@page "/create-entreprise"
+@using Conferences_projet.Models
+@using Conferences_projet.service
+@inject EntrepriseService entrepriseService
+@inject NavigationManager Navigation
+@implements IDisposable
+
+<h3>Create Entreprise</h3>
+
+<EditForm Model="entreprise" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-group">
+        <label for="name">Name:</label>
+        <InputText @bind-Value="entreprise.Nom" class="form-control" id="name" />
+        <ValidationMessage For="@(() => entreprise.Nom)" />
+    </div>
+    <div class="form-group">
+        <label for="address">Address:</label>
+        <InputText @bind-Value="entreprise.Adresse" class="form-control" id="address" />
+        <ValidationMessage For="@(() => entreprise.Adresse)" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+</EditForm>
+
+@code {
+    private Entreprise entreprise = new Entreprise();
+
+    private async Task HandleValidSubmit()
+    {
+        await entrepriseService.CreateEntrepriseAsync(entreprise);
+        Navigation.NavigateTo("/list-entreprises");
+    }
+
+    public void Dispose()
+    {
+        entrepriseService.Dispose();
+    }
+}

@@ -1,0 +1,433 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|c:\\users\\hp\\source\\repos\\conferences_projet\\components\\pages\\entreprisepage\\createentreprise.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|solutionrelative:components\\pages\\entreprisepage\\createentreprise.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|c:\\users\\hp\\source\\repos\\conferences_projet\\service\\relecteurservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|solutionrelative:service\\relecteurservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|c:\\users\\hp\\source\\repos\\conferences_projet\\service\\irelecteurservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|solutionrelative:service\\irelecteurservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|c:\\users\\hp\\source\\repos\\conferences_projet\\components\\pages\\relecteurpage\\editrelecteur.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|solutionrelative:components\\pages\\relecteurpage\\editrelecteur.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|c:\\users\\hp\\source\\repos\\conferences_projet\\components\\pages\\relecteurpage\\createrelecteur.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|solutionrelative:components\\pages\\relecteurpage\\createrelecteur.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|c:\\users\\hp\\source\\repos\\conferences_projet\\components\\pages\\relecteurpage\\showrelecteur.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|solutionrelative:components\\pages\\relecteurpage\\showrelecteur.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|c:\\users\\hp\\source\\repos\\conferences_projet\\components\\pages\\universitepage\\deleteuniversit\u00E9.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|solutionrelative:components\\pages\\universitepage\\deleteuniversit\u00E9.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|c:\\users\\hp\\source\\repos\\conferences_projet\\components\\pages\\universitepage\\createuniversit\u00E9.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|solutionrelative:components\\pages\\universitepage\\createuniversit\u00E9.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|c:\\users\\hp\\source\\repos\\conferences_projet\\components\\pages\\universitepage\\updateuniversit\u00E9.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|solutionrelative:components\\pages\\universitepage\\updateuniversit\u00E9.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|c:\\users\\hp\\source\\repos\\conferences_projet\\components\\pages\\universitepage\\showuniversit\u00E9.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|solutionrelative:components\\pages\\universitepage\\showuniversit\u00E9.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|c:\\users\\hp\\source\\repos\\conferences_projet\\service\\universiteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|solutionrelative:service\\universiteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|c:\\users\\hp\\source\\repos\\conferences_projet\\service\\iuniversiteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|solutionrelative:service\\iuniversiteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|c:\\users\\hp\\source\\repos\\conferences_projet\\components\\pages\\entreprisepage\\updateentreprise.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|solutionrelative:components\\pages\\entreprisepage\\updateentreprise.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|c:\\users\\hp\\source\\repos\\conferences_projet\\components\\pages\\entreprisepage\\showentreprise.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|solutionrelative:components\\pages\\entreprisepage\\showentreprise.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|c:\\users\\hp\\source\\repos\\conferences_projet\\components\\pages\\entreprisepage\\deleteentreprise.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|solutionrelative:components\\pages\\entreprisepage\\deleteentreprise.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|c:\\users\\hp\\source\\repos\\conferences_projet\\service\\entrepriseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|solutionrelative:service\\entrepriseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|c:\\users\\hp\\source\\repos\\conferences_projet\\service\\ientrepriseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|solutionrelative:service\\ientrepriseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|c:\\users\\hp\\source\\repos\\conferences_projet\\components\\pages\\relecteurpage\\createrelecteur.razor||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|solutionrelative:components\\pages\\relecteurpage\\createrelecteur.razor||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|c:\\users\\hp\\source\\repos\\conferences_projet\\models\\relecteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|solutionrelative:models\\relecteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|c:\\users\\hp\\source\\repos\\conferences_projet\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|c:\\users\\hp\\source\\repos\\conferences_projet\\models\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|solutionrelative:models\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|c:\\users\\hp\\source\\repos\\conferences_projet\\models\\auteurs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|solutionrelative:models\\auteurs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|c:\\users\\hp\\source\\repos\\conferences_projet\\components\\account\\identitycomponentsendpointroutebuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|solutionrelative:components\\account\\identitycomponentsendpointroutebuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|c:\\users\\hp\\source\\repos\\conferences_projet\\service\\imembrecomiteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8C37EA1-862E-490A-876E-94F88B7F36E5}|Conferences_projet.csproj|solutionrelative:service\\imembrecomiteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 210,
+          "SelectedChildIndex": 17,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IRelecteurService.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\service\\IRelecteurService.cs",
+              "RelativeDocumentMoniker": "service\\IRelecteurService.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\service\\IRelecteurService.cs",
+              "RelativeToolTip": "service\\IRelecteurService.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAzwAcAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T16:58:07.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditRelecteur.razor",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\Components\\Pages\\RelecteurPage\\EditRelecteur.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\RelecteurPage\\EditRelecteur.razor",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\Components\\Pages\\RelecteurPage\\EditRelecteur.razor",
+              "RelativeToolTip": "Components\\Pages\\RelecteurPage\\EditRelecteur.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T16:55:25.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateRelecteur.razor",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\Components\\Pages\\RelecteurPage\\CreateRelecteur.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\RelecteurPage\\CreateRelecteur.razor",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\Components\\Pages\\RelecteurPage\\CreateRelecteur.razor",
+              "RelativeToolTip": "Components\\Pages\\RelecteurPage\\CreateRelecteur.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T16:55:16.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ShowRelecteur.razor",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\Components\\Pages\\RelecteurPage\\ShowRelecteur.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\RelecteurPage\\ShowRelecteur.razor",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\Components\\Pages\\RelecteurPage\\ShowRelecteur.razor",
+              "RelativeToolTip": "Components\\Pages\\RelecteurPage\\ShowRelecteur.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T16:54:16.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UpdateUniversit\u00E9.razor",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\Components\\Pages\\UniversitePage\\UpdateUniversit\u00E9.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\UniversitePage\\UpdateUniversit\u00E9.razor",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\Components\\Pages\\UniversitePage\\UpdateUniversit\u00E9.razor",
+              "RelativeToolTip": "Components\\Pages\\UniversitePage\\UpdateUniversit\u00E9.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T16:51:16.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ShowUniversit\u00E9.razor",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\Components\\Pages\\UniversitePage\\ShowUniversit\u00E9.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\UniversitePage\\ShowUniversit\u00E9.razor",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\Components\\Pages\\UniversitePage\\ShowUniversit\u00E9.razor",
+              "RelativeToolTip": "Components\\Pages\\UniversitePage\\ShowUniversit\u00E9.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T16:49:06.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DeleteUniversit\u00E9.razor",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\Components\\Pages\\UniversitePage\\DeleteUniversit\u00E9.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\UniversitePage\\DeleteUniversit\u00E9.razor",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\Components\\Pages\\UniversitePage\\DeleteUniversit\u00E9.razor",
+              "RelativeToolTip": "Components\\Pages\\UniversitePage\\DeleteUniversit\u00E9.razor",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACYAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T16:48:31.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateUniversit\u00E9.razor",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\Components\\Pages\\UniversitePage\\CreateUniversit\u00E9.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\UniversitePage\\CreateUniversit\u00E9.razor",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\Components\\Pages\\UniversitePage\\CreateUniversit\u00E9.razor",
+              "RelativeToolTip": "Components\\Pages\\UniversitePage\\CreateUniversit\u00E9.razor",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB0AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T16:46:54.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IUniversiteService.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\service\\IUniversiteService.cs",
+              "RelativeDocumentMoniker": "service\\IUniversiteService.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\service\\IUniversiteService.cs",
+              "RelativeToolTip": "service\\IUniversiteService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T16:45:13.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RelecteurService.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\service\\RelecteurService.cs",
+              "RelativeDocumentMoniker": "service\\RelecteurService.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\service\\RelecteurService.cs",
+              "RelativeToolTip": "service\\RelecteurService.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAADwvwgAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T16:38:04.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UpdateEntreprise.razor",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\Components\\Pages\\EntreprisePage\\UpdateEntreprise.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\EntreprisePage\\UpdateEntreprise.razor",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\Components\\Pages\\EntreprisePage\\UpdateEntreprise.razor",
+              "RelativeToolTip": "Components\\Pages\\EntreprisePage\\UpdateEntreprise.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T16:34:10.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EntrepriseService.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\service\\EntrepriseService.cs",
+              "RelativeDocumentMoniker": "service\\EntrepriseService.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\service\\EntrepriseService.cs",
+              "RelativeToolTip": "service\\EntrepriseService.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBEAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T16:19:48.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IEntrepriseService.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\service\\IEntrepriseService.cs",
+              "RelativeDocumentMoniker": "service\\IEntrepriseService.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\service\\IEntrepriseService.cs",
+              "RelativeToolTip": "service\\IEntrepriseService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T16:17:32.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DeleteEntreprise.razor",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\Components\\Pages\\EntreprisePage\\DeleteEntreprise.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\EntreprisePage\\DeleteEntreprise.razor",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\Components\\Pages\\EntreprisePage\\DeleteEntreprise.razor",
+              "RelativeToolTip": "Components\\Pages\\EntreprisePage\\DeleteEntreprise.razor",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAACcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T16:17:04.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ShowEntreprise.razor",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\Components\\Pages\\EntreprisePage\\ShowEntreprise.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\EntreprisePage\\ShowEntreprise.razor",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\Components\\Pages\\EntreprisePage\\ShowEntreprise.razor",
+              "RelativeToolTip": "Components\\Pages\\EntreprisePage\\ShowEntreprise.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T16:16:35.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateEntreprise.razor",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\Components\\Pages\\EntreprisePage\\CreateEntreprise.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\EntreprisePage\\CreateEntreprise.razor",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\Components\\Pages\\EntreprisePage\\CreateEntreprise.razor",
+              "RelativeToolTip": "Components\\Pages\\EntreprisePage\\CreateEntreprise.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T16:16:12.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UniversiteService.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\service\\UniversiteService.cs",
+              "RelativeDocumentMoniker": "service\\UniversiteService.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\service\\UniversiteService.cs",
+              "RelativeToolTip": "service\\UniversiteService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T16:12:02.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CreateRelecteur.razor",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\Components\\Pages\\RelecteurPage\\CreateRelecteur.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\RelecteurPage\\CreateRelecteur.razor",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\Components\\Pages\\RelecteurPage\\CreateRelecteur.razor",
+              "RelativeToolTip": "Components\\Pages\\RelecteurPage\\CreateRelecteur.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T14:52:58.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Relecteur.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\Models\\Relecteur.cs",
+              "RelativeDocumentMoniker": "Models\\Relecteur.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\Models\\Relecteur.cs",
+              "RelativeToolTip": "Models\\Relecteur.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T14:29:59.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Utilisateur.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\Models\\Utilisateur.cs",
+              "RelativeDocumentMoniker": "Models\\Utilisateur.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\Models\\Utilisateur.cs",
+              "RelativeToolTip": "Models\\Utilisateur.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T14:07:36.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Auteurs.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\Models\\Auteurs.cs",
+              "RelativeDocumentMoniker": "Models\\Auteurs.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\Models\\Auteurs.cs",
+              "RelativeToolTip": "Models\\Auteurs.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAiwAoAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T14:28:37.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAiwHQAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T00:08:59.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IdentityComponentsEndpointRouteBuilderExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\Components\\Account\\IdentityComponentsEndpointRouteBuilderExtensions.cs",
+              "RelativeDocumentMoniker": "Components\\Account\\IdentityComponentsEndpointRouteBuilderExtensions.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\Components\\Account\\IdentityComponentsEndpointRouteBuilderExtensions.cs",
+              "RelativeToolTip": "Components\\Account\\IdentityComponentsEndpointRouteBuilderExtensions.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAQwA0AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T13:15:12.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IMembreComiteService.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\service\\IMembreComiteService.cs",
+              "RelativeDocumentMoniker": "service\\IMembreComiteService.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Conferences_projet\\service\\IMembreComiteService.cs",
+              "RelativeToolTip": "service\\IMembreComiteService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T08:03:27.88Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

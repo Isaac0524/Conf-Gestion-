@@ -1,0 +1,41 @@
+﻿<!-- DeleteUniversite.razor -->
+@page "/delete-universite/{id:int}"
+@using Conferences_projet.Data;
+@using Conferences_projet.Models;
+@using Conferences_projet.service;
+@inject IUniversiteService UniversiteService
+@inject NavigationManager Navigation
+
+<h3>Delete Universite</h3>
+
+@if (universite != null)
+{
+    <div>
+        <p>Are you sure you want to delete @universite.Nom?</p>
+        <button @onclick="Delete">Yes</button>
+        <button @onclick="Cancel">No</button>
+    </div>
+}
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    private Universite universite;
+
+    protected override async Task OnInitializedAsync()
+    {
+        universite = await UniversiteService.GetUniversiteByIdAsync(Id);
+    }
+
+    private async Task Delete()
+    {
+        await UniversiteService.DeleteUniversiteAsync(Id);
+        Navigation.NavigateTo("/show-universites");
+    }
+
+    private void Cancel()
+    {
+        Navigation.NavigateTo("/show-universites");
+    }
+}

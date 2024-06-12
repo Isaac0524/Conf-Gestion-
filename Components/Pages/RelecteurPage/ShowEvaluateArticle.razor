@@ -1,0 +1,51 @@
+﻿@page "/show-evaluations"
+@using Conferences_projet.Models
+@using Conferences_projet.service
+
+@inject RelecteurService RelecteurService
+
+<h3>Show Evaluations</h3>
+
+@if (evaluations == null || !evaluations.Any())
+{
+    <h1>No evaluations available.</h1>
+}
+else
+{
+    <table>
+        <thead>
+            <tr>
+                <th>Article</th>
+                <th>Relecteur</th>
+                <th>Fond</th>
+                <th>Forme</th>
+                <th>Pertinence Scientifique</th>
+                <th>Commentaire</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var evaluation in evaluations)
+            {
+                <tr>
+                    <td>@evaluation.Article.Titre</td>
+                    <td>@evaluation.Relecteur.Nom @evaluation.Relecteur.Prenom</td>
+                    <td>@evaluation.NoteFond</td>
+                    <td>@evaluation.NoteForme</td>
+                    <td>@evaluation.NotePertinenceScientifique</td>
+                    <td>@evaluation.Commentaire</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<Evaluation> evaluations;
+
+    protected override async Task OnInitializedAsync()
+    {
+        evaluations = await RelecteurService.GetAllEvaluationsAsync(); // Add this method in service
+    }
+}
+
+

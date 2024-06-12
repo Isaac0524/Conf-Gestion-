@@ -1,0 +1,41 @@
+@page "/create-relecteur"
+@using Conferences_projet.Models
+@using Conferences_projet.service
+@inject RelecteurService RelecteurService
+@inject NavigationManager Navigation
+
+<h3>Create Relecteur</h3>
+
+<EditForm Model="newRelecteur" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-group">
+        <label for="Nom">Nom</label>
+        <InputText id="Nom" class="form-control" @bind-Value="newRelecteur.Nom" />
+        <ValidationMessage For="@(() => newRelecteur.Nom)" />
+    </div>
+    <div class="form-group">
+        <label for="Prenom">Prénom</label>
+        <InputText id="Prenom" class="form-control" @bind-Value="newRelecteur.Prenom" />
+        <ValidationMessage For="@(() => newRelecteur.Prenom)" />
+    </div>
+    <div class="form-group">
+        <label for="Email">Email</label>
+        <InputText id="Email" class="form-control" @bind-Value="newRelecteur.Email" />
+        <ValidationMessage For="@(() => newRelecteur.Email)" />
+    </div>
+    <!-- Add other fields as necessary -->
+
+    <button type="submit" class="btn btn-primary">Create</button>
+</EditForm>
+
+@code {
+    private Relecteur newRelecteur = new Relecteur();
+
+    private async Task HandleValidSubmit()
+    {
+        await RelecteurService.CreateRelecteurAsync(newRelecteur);
+        Navigation.NavigateTo("/show-relecteur");
+    }
+}
